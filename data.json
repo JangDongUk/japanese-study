@@ -1,0 +1,528 @@
+{
+  "sentences": [
+    {
+      "jp": "努力した<ruby>分<rt>ぶん</rt></ruby>だけ、必ず結果に現れる。",
+      "kr": "노력한 만큼, 반드시 결과에 나타난다.",
+      "grammar": "～だけ",
+      "level": "N2",
+      "words": [
+        {"kanji": "努力", "furi": "どりょく", "meaning": "노력"},
+        {"kanji": "結果", "furi": "けっか", "meaning": "결과"},
+        {"kanji": "現れる", "furi": "あらわれる", "meaning": "나타나다"}
+      ]
+    },
+    {
+      "jp": "<ruby>継続<rt>けいぞく</rt></ruby>は<ruby>力<rt>ちから</rt></ruby>なりという<ruby>言葉<rt>ことば</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れないようにしている。",
+      "kr": "'계속은 힘이다'라는 말을 잊지 않으려 하고 있다.",
+      "grammar": "～ないようにする",
+      "level": "N2",
+      "words": [
+        {"kanji": "継続", "furi": "けいぞく", "meaning": "계속, 지속"},
+        {"kanji": "力", "furi": "ちから", "meaning": "힘"},
+        {"kanji": "忘れる", "furi": "わすれる", "meaning": "잊다"}
+      ]
+    },
+    {
+      "jp": "<ruby>失敗<rt>しっぱい</rt></ruby>を<ruby>恐<rt>おそ</rt></ruby>れるあまり、<ruby>何<rt>なに</rt></ruby>もできなくなってしまった。",
+      "kr": "실패를 너무 두려워한 나머지, 아무것도 할 수 없게 되어버렸다.",
+      "grammar": "～あまり",
+      "level": "N2",
+      "words": [
+        {"kanji": "失敗", "furi": "しっぱい", "meaning": "실패"},
+        {"kanji": "恐れる", "furi": "おそれる", "meaning": "두려워하다"},
+        {"kanji": "恐れる", "furi": "おそれる", "meaning": "두려워하다"}
+      ]
+    },
+    {
+      "jp": "<ruby>時間<rt>じかん</rt></ruby>があれば、もっと<ruby>勉強<rt>べんきょう</rt></ruby>したいのに。",
+      "kr": "시간이 있다면, 더 공부하고 싶은데.",
+      "grammar": "～ば～のに",
+      "level": "N2",
+      "words": [
+        {"kanji": "時間", "furi": "じかん", "meaning": "시간"},
+        {"kanji": "勉強", "furi": "べんきょう", "meaning": "공부"}
+      ]
+    },
+    {
+      "jp": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>したおかげで、<ruby>大会<rt>たいかい</rt></ruby>で<ruby>優勝<rt>ゆうしょう</rt></ruby>することができた。",
+      "kr": "그녀는 매일 연습한 덕분에, 대회에서 우승할 수 있었다.",
+      "grammar": "～おかげで",
+      "level": "N2",
+      "words": [
+        {"kanji": "練習", "furi": "れんしゅう", "meaning": "연습"},
+        {"kanji": "大会", "furi": "たいかい", "meaning": "대회"},
+        {"kanji": "優勝", "furi": "ゆうしょう", "meaning": "우승"}
+      ]
+    },
+    {
+      "jp": "<ruby>父<rt>ちち</rt></ruby>は<ruby>厳<rt>きび</rt></ruby>しいものの、とても<ruby>優<rt>やさ</rt></ruby>しい<ruby>人<rt>ひと</rt></ruby>だ。",
+      "kr": "아버지는 엄격하기는 하지만, 매우 다정한 사람이다.",
+      "grammar": "～ものの",
+      "level": "N2",
+      "words": [
+        {"kanji": "厳しい", "furi": "きびしい", "meaning": "엄격하다"},
+        {"kanji": "優しい", "furi": "やさしい", "meaning": "다정하다, 친절하다"}
+      ]
+    },
+    {
+      "jp": "<ruby>健康<rt>けんこう</rt></ruby>のためなら、どんな<ruby>努力<rt>どりょく</rt></ruby>も<ruby>惜<rt>お</rt></ruby>しまない。",
+      "kr": "건강을 위해서라면, 어떤 노력도 아끼지 않는다.",
+      "grammar": "～ためなら",
+      "level": "N2",
+      "words": [
+        {"kanji": "健康", "furi": "けんこう", "meaning": "건강"},
+        {"kanji": "惜しむ", "furi": "おしむ", "meaning": "아끼다, 惜しむ"}
+      ]
+    },
+    {
+      "jp": "この<ruby>映画<rt>えいが</rt></ruby>は<ruby>見<rt>み</rt></ruby>れば<ruby>見<rt>み</rt></ruby>るほど、<ruby>深<rt>ふか</rt></ruby>い<ruby>意味<rt>いみ</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かる。",
+      "kr": "이 영화는 보면 볼수록 깊은 의미를 알 수 있다.",
+      "grammar": "～ば～ほど",
+      "level": "N2",
+      "words": [
+        {"kanji": "映画", "furi": "えいが", "meaning": "영화"},
+        {"kanji": "意味", "furi": "いみ", "meaning": "의미"}
+      ]
+    },
+    {
+      "jp": "<ruby>締<rt>し</rt></ruby>め<ruby>切<rt>き</rt></ruby>りに<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うように、<ruby>急<rt>いそ</rt></ruby>いで<ruby>仕事<rt>しごと</rt></ruby>を<ruby>終<rt>お</rt></ruby>わらせた。",
+      "kr": "마감에 맞출 수 있도록, 서둘러 일을 끝냈다.",
+      "grammar": "～ように",
+      "level": "N2",
+      "words": [
+        {"kanji": "締め切り", "furi": "しめきり", "meaning": "마감"},
+        {"kanji": "間に合う", "furi": "まにあう", "meaning": "시간에 맞다"}
+      ]
+    },
+    {
+      "jp": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいにもかかわらず、<ruby>毎日<rt>まいにち</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>を<ruby>欠<rt>か</rt></ruby>かさない。",
+      "kr": "그는 바쁨에도 불구하고, 매일 운동을 거르지 않는다.",
+      "grammar": "～にもかかわらず",
+      "level": "N2",
+      "words": [
+        {"kanji": "忙しい", "furi": "いそがしい", "meaning": "바쁘다"},
+        {"kanji": "運動", "furi": "うんどう", "meaning": "운동"},
+        {"kanji": "欠かさない", "furi": "かかさない", "meaning": "빠뜨리지 않다"}
+      ]
+    },
+    {
+      "jp": "<ruby>子供<rt>こども</rt></ruby>のころ、<ruby>母<rt>はは</rt></ruby>によく<ruby>叱<rt>しか</rt></ruby>られたものだ。",
+      "kr": "어린 시절, 어머니에게 자주 혼났었다.",
+      "grammar": "～たものだ",
+      "level": "N2",
+      "words": [
+        {"kanji": "子供", "furi": "こども", "meaning": "아이"},
+        {"kanji": "叱る", "furi": "しかる", "meaning": "꾸짖다, 혼내다"}
+      ]
+    },
+    {
+      "jp": "<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>したとたん、<ruby>涙<rt>なみだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきた。",
+      "kr": "시험에 합격하자마자, 눈물이 나왔다.",
+      "grammar": "～とたん",
+      "level": "N2",
+      "words": [
+        {"kanji": "試験", "furi": "しけん", "meaning": "시험"},
+        {"kanji": "合格", "furi": "ごうかく", "meaning": "합격"},
+        {"kanji": "涙", "furi": "なみだ", "meaning": "눈물"}
+      ]
+    },
+    {
+      "jp": "どんなに<ruby>疲<rt>つか</rt></ruby>れていても、<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れないようにしている。",
+      "kr": "아무리 피곤해도, 웃는 얼굴을 잊지 않으려 하고 있다.",
+      "grammar": "どんなに～ても",
+      "level": "N2",
+      "words": [
+        {"kanji": "疲れる", "furi": "つかれる", "meaning": "지치다, 피곤하다"},
+        {"kanji": "笑顔", "furi": "えがお", "meaning": "웃는 얼굴"}
+      ]
+    },
+    {
+      "jp": "<ruby>言葉<rt>ことば</rt></ruby>は<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>次第で、<ruby>人<rt>ひと</rt></ruby>を<ruby>傷<rt>きず</rt></ruby>つけることも<ruby>癒<rt>いや</rt></ruby>すこともできる。",
+      "kr": "말은 사용하는 방법에 따라, 사람을 상처 입힐 수도 치유할 수도 있다.",
+      "grammar": "～次第で",
+      "level": "N2",
+      "words": [
+        {"kanji": "言葉", "furi": "ことば", "meaning": "말, 언어"},
+        {"kanji": "傷つける", "furi": "きずつける", "meaning": "상처 입히다"},
+        {"kanji": "癒す", "furi": "いやす", "meaning": "치유하다"}
+      ]
+    },
+    {
+      "jp": "<ruby>練習<rt>れんしゅう</rt></ruby>すればするほど、<ruby>上手<rt>うま</rt></ruby>くなるのは<ruby>当然<rt>とうぜん</rt></ruby>だ。",
+      "kr": "연습하면 할수록 능숙해지는 것은 당연하다.",
+      "grammar": "～すればするほど",
+      "level": "N2",
+      "words": [
+        {"kanji": "上手い", "furi": "うまい", "meaning": "능숙하다"},
+        {"kanji": "当然", "furi": "とうぜん", "meaning": "당연"}
+      ]
+    },
+    {
+      "jp": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るどころか、<ruby>連絡<rt>れんらく</rt></ruby>すらしてこなかった。",
+      "kr": "그는 약속을 지키기는커녕, 연락조차 해오지 않았다.",
+      "grammar": "～どころか～すら",
+      "level": "N1",
+      "words": [
+        {"kanji": "約束", "furi": "やくそく", "meaning": "약속"},
+        {"kanji": "守る", "furi": "まもる", "meaning": "지키다"},
+        {"kanji": "連絡", "furi": "れんらく", "meaning": "연락"}
+      ]
+    },
+    {
+      "jp": "<ruby>石橋<rt>いしばし</rt></ruby>を<ruby>叩<rt>たた</rt></ruby>いて<ruby>渡<rt>わた</rt></ruby>る<ruby>性格<rt>せいかく</rt></ruby>のおかげで、<ruby>大<rt>おお</rt></ruby>きな<ruby>失敗<rt>しっぱい</rt></ruby>をしたことがない。",
+      "kr": "돌다리도 두드려보고 건너는 성격 덕분에, 큰 실수를 한 적이 없다.",
+      "grammar": "～おかげで",
+      "level": "N2",
+      "words": [
+        {"kanji": "性格", "furi": "せいかく", "meaning": "성격"},
+        {"kanji": "渡る", "furi": "わたる", "meaning": "건너다"}
+      ]
+    },
+    {
+      "jp": "<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>実現<rt>じつげん</rt></ruby>するためには、<ruby>今<rt>いま</rt></ruby>この<ruby>瞬間<rt>しゅんかん</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>にしなければならない。",
+      "kr": "꿈을 실현하기 위해서는, 지금 이 순간을 소중히 여기지 않으면 안 된다.",
+      "grammar": "～なければならない",
+      "level": "N3",
+      "words": [
+        {"kanji": "夢", "furi": "ゆめ", "meaning": "꿈"},
+        {"kanji": "実現", "furi": "じつげん", "meaning": "실현"},
+        {"kanji": "瞬間", "furi": "しゅんかん", "meaning": "순간"}
+      ]
+    },
+    {
+      "jp": "<ruby>知識<rt>ちしき</rt></ruby>は<ruby>使<rt>つか</rt></ruby>ってこそ、<ruby>初<rt>はじ</rt></ruby>めて<ruby>価値<rt>かち</rt></ruby>が<ruby>生<rt>う</rt></ruby>まれる。",
+      "kr": "지식은 사용해야 비로소 가치가 생긴다.",
+      "grammar": "～てこそ",
+      "level": "N2",
+      "words": [
+        {"kanji": "知識", "furi": "ちしき", "meaning": "지식"},
+        {"kanji": "価値", "furi": "かち", "meaning": "가치"}
+      ]
+    },
+    {
+      "jp": "<ruby>困難<rt>こんなん</rt></ruby>に<ruby>直面<rt>ちょくめん</rt></ruby>したとき、<ruby>逃<rt>に</rt></ruby>げるか<ruby>立<rt>た</rt></ruby>ち<ruby>向<rt>む</rt></ruby>かうかで<ruby>人生<rt>じんせい</rt></ruby>が<ruby>変<rt>か</rt></ruby>わる。",
+      "kr": "어려움에 직면했을 때, 도망치느냐 맞서느냐에 따라 인생이 바뀐다.",
+      "grammar": "～かで",
+      "level": "N2",
+      "words": [
+        {"kanji": "困難", "furi": "こんなん", "meaning": "곤란, 어려움"},
+        {"kanji": "直面", "furi": "ちょくめん", "meaning": "직면"},
+        {"kanji": "立ち向かう", "furi": "たちむかう", "meaning": "맞서다"}
+      ]
+    },
+    {
+      "jp": "<ruby>読書<rt>どくしょ</rt></ruby>をする<ruby>習慣<rt>しゅうかん</rt></ruby>をつけることで、<ruby>語彙力<rt>ごいりょく</rt></ruby>が<ruby>自然<rt>しぜん</rt></ruby>と<ruby>身<rt>み</rt></ruby>につく。",
+      "kr": "독서하는 습관을 들임으로써, 어휘력이 자연스럽게 몸에 익는다.",
+      "grammar": "～ことで",
+      "level": "N2",
+      "words": [
+        {"kanji": "読書", "furi": "どくしょ", "meaning": "독서"},
+        {"kanji": "習慣", "furi": "しゅうかん", "meaning": "습관"},
+        {"kanji": "語彙力", "furi": "ごいりょく", "meaning": "어휘력"}
+      ]
+    },
+    {
+      "jp": "<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くにつれて、<ruby>彼女<rt>かのじょ</rt></ruby>への<ruby>尊敬<rt>そんけい</rt></ruby>が<ruby>深<rt>ふか</rt></ruby>まった。",
+      "kr": "그녀의 이야기를 들으면서, 그녀에 대한 존경이 깊어졌다.",
+      "grammar": "～につれて",
+      "level": "N2",
+      "words": [
+        {"kanji": "尊敬", "furi": "そんけい", "meaning": "존경"},
+        {"kanji": "深まる", "furi": "ふかまる", "meaning": "깊어지다"}
+      ]
+    },
+    {
+      "jp": "<ruby>小<rt>ちい</rt></ruby>さな<ruby>親切<rt>しんせつ</rt></ruby>が、<ruby>世界<rt>せかい</rt></ruby>を<ruby>変<rt>か</rt></ruby>えるきっかけになることもある。",
+      "kr": "작은 친절이, 세상을 바꾸는 계기가 될 수도 있다.",
+      "grammar": "～になることもある",
+      "level": "N2",
+      "words": [
+        {"kanji": "親切", "furi": "しんせつ", "meaning": "친절"},
+        {"kanji": "きっかけ", "furi": "きっかけ", "meaning": "계기"}
+      ]
+    },
+    {
+      "jp": "<ruby>自分<rt>じぶん</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じることなしに、<ruby>成功<rt>せいこう</rt></ruby>はあり<ruby>得<rt>え</rt></ruby>ない。",
+      "kr": "자신을 믿지 않고서는, 성공은 있을 수 없다.",
+      "grammar": "～ことなしに",
+      "level": "N1",
+      "words": [
+        {"kanji": "信じる", "furi": "しんじる", "meaning": "믿다"},
+        {"kanji": "成功", "furi": "せいこう", "meaning": "성공"}
+      ]
+    },
+    {
+      "jp": "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>早起<rt>はやお</rt></ruby>きするだけで、<ruby>一日<rt>いちにち</rt></ruby>の<ruby>質<rt>しつ</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>変<rt>か</rt></ruby>わる。",
+      "kr": "매일 아침 일찍 일어나는 것만으로, 하루의 질이 크게 바뀐다.",
+      "grammar": "～だけで",
+      "level": "N3",
+      "words": [
+        {"kanji": "早起き", "furi": "はやおき", "meaning": "일찍 일어남"},
+        {"kanji": "質", "furi": "しつ", "meaning": "질"}
+      ]
+    },
+    {
+      "jp": "<ruby>人<rt>ひと</rt></ruby>は<ruby>失敗<rt>しっぱい</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して<ruby>成長<rt>せいちょう</rt></ruby>するものだ。",
+      "kr": "사람은 실패를 통해 성장하는 법이다.",
+      "grammar": "～ものだ",
+      "level": "N2",
+      "words": [
+        {"kanji": "失敗", "furi": "しっぱい", "meaning": "실패"},
+        {"kanji": "成長", "furi": "せいちょう", "meaning": "성장"}
+      ]
+    },
+    {
+      "jp": "<ruby>急<rt>いそ</rt></ruby>いては<ruby>事<rt>こと</rt></ruby>を<ruby>仕損<rt>しそん</rt></ruby>じるというから、<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いて<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>もう。",
+      "kr": "'서두르면 일을 그르친다'고 하니, 침착하게 임해 보자.",
+      "grammar": "～というから",
+      "level": "N2",
+      "words": [
+        {"kanji": "落ち着く", "furi": "おちつく", "meaning": "침착하다, 안정되다"},
+        {"kanji": "取り組む", "furi": "とりくむ", "meaning": "임하다, 매달리다"}
+      ]
+    },
+    {
+      "jp": "<ruby>環境<rt>かんきょう</rt></ruby>が<ruby>変<rt>か</rt></ruby>わると、<ruby>人間<rt>にんげん</rt></ruby>も<ruby>自然<rt>しぜん</rt></ruby>と<ruby>変<rt>か</rt></ruby>わっていくものだ。",
+      "kr": "환경이 바뀌면, 사람도 자연스럽게 변해가는 법이다.",
+      "grammar": "～ていくものだ",
+      "level": "N2",
+      "words": [
+        {"kanji": "環境", "furi": "かんきょう", "meaning": "환경"},
+        {"kanji": "人間", "furi": "にんげん", "meaning": "인간, 사람"}
+      ]
+    },
+    {
+      "jp": "<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことで、<ruby>毎日<rt>まいにち</rt></ruby>が<ruby>充実<rt>じゅうじつ</rt></ruby>する。",
+      "kr": "목표를 가짐으로써, 매일이 알차진다.",
+      "grammar": "～ことで",
+      "level": "N2",
+      "words": [
+        {"kanji": "目標", "furi": "もくひょう", "meaning": "목표"},
+        {"kanji": "充実", "furi": "じゅうじつ", "meaning": "충실, 알참"}
+      ]
+    },
+    {
+      "jp": "<ruby>過去<rt>かこ</rt></ruby>は<ruby>変<rt>か</rt></ruby>えられないが、<ruby>未来<rt>みらい</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>次第でいくらでも<ruby>変<rt>か</rt></ruby>えられる。",
+      "kr": "과거는 바꿀 수 없지만, 미래는 자신의 행동에 따라 얼마든지 바꿀 수 있다.",
+      "grammar": "～次第で",
+      "level": "N2",
+      "words": [
+        {"kanji": "過去", "furi": "かこ", "meaning": "과거"},
+        {"kanji": "未来", "furi": "みらい", "meaning": "미래"},
+        {"kanji": "行動", "furi": "こうどう", "meaning": "행동"}
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "level": "N2", "type": "문법",
+      "question": "彼女は毎日練習した（　　）、大会で優勝することができた。",
+      "options": ["おかげで", "せいで", "くせに", "ものの"],
+      "answer": 0,
+      "explanation": "「おかげで」는 좋은 결과의 원인을 나타냅니다. 「せいで」는 나쁜 결과, 「くせに」는 불만·비난, 「ものの」는 역접에 씁니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "父は厳しい（　　）、とても優しい人だ。",
+      "options": ["ようで", "ものの", "ことで", "だからこそ"],
+      "answer": 1,
+      "explanation": "「ものの」는 '~이기는 하지만'의 역접 표현입니다. 앞 내용을 인정하면서 예상과 다른 결과가 이어질 때 사용합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "時間が（　　）、もっと勉強したいのに。",
+      "options": ["あれば", "あると", "あって", "あるなら"],
+      "answer": 0,
+      "explanation": "「～ば」는 반사실적 조건을 나타냅니다. '시간이 있다면'이라는 아쉬움을 표현할 때 씁니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "彼は問題を（　　）的に解決しようとした。",
+      "options": ["論理", "感情", "積極", "消極"],
+      "answer": 0,
+      "explanation": "「論理的」(논리적)이 '문제를 논리적으로 해결하려 했다'는 문맥에 가장 자연스럽습니다."
+    },
+    {
+      "level": "N1", "type": "독해",
+      "question": "「石橋を叩いて渡る」の意味として最も適切なものはどれですか。",
+      "options": ["慎重に確認してから行動する", "勇気を持って困難に立ち向かう", "急いで物事を進める", "他人を信用しない"],
+      "answer": 0,
+      "explanation": "돌다리도 두드려보고 건넌다는 뜻으로, 충분히 확인한 후 행동하는 신중한 태도를 의미합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "練習すれば（　　）上手くなる。",
+      "options": ["するほど", "したほど", "するから", "したから"],
+      "answer": 0,
+      "explanation": "「～ば～ほど」는 '~하면 할수록'의 의미로 정도가 비례하여 증가함을 나타냅니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "締め切りに間に合う（　　）、急いで仕事を終わらせた。",
+      "options": ["ように", "ために", "ことで", "からには"],
+      "answer": 0,
+      "explanation": "「ように」는 목적·희망하는 상태를 나타냅니다. 의도적 행위의 목적에는 「ために」도 쓰이나, 가능·불가능 동사 뒤에는 「ように」를 씁니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "彼は忙しい（　　）、毎日運動を欠かさない。",
+      "options": ["にもかかわらず", "にしては", "だけあって", "からこそ"],
+      "answer": 0,
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'로 예상과 반대되는 결과가 이어질 때 씁니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "その計画は（　　）に欠けているので、もう一度見直す必要がある。",
+      "options": ["論理性", "感情性", "積極性", "消極性"],
+      "answer": 0,
+      "explanation": "「論理性」(논리성)은 계획이 논리적이지 않다는 문맥에 적합합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "子供のころ、母によく叱られた（　　）。",
+      "options": ["ものだ", "ことだ", "はずだ", "わけだ"],
+      "answer": 0,
+      "explanation": "「たものだ」는 과거의 습관이나 추억을 회상할 때 쓰는 표현입니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "試験に合格した（　　）、涙が出てきた。",
+      "options": ["とたん", "ところ", "あまり", "うえに"],
+      "answer": 0,
+      "explanation": "「とたん」은 '~하자마자'의 의미로, 어떤 동작 직후에 예상치 못한 일이 일어날 때 씁니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "言葉は使い方（　　）で、人を傷つけることも癒すこともできる。",
+      "options": ["次第", "だけ", "ほど", "くらい"],
+      "answer": 0,
+      "explanation": "「次第で」는 '~에 따라'의 의미로, 조건에 따라 결과가 달라짐을 나타냅니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "知識は使って（　　）、初めて価値が生まれる。",
+      "options": ["こそ", "から", "でも", "こそが"],
+      "answer": 0,
+      "explanation": "「てこそ」는 '~해야 비로소'의 의미로, 그 행위가 있어야만 가치·결과가 나타남을 강조합니다."
+    },
+    {
+      "level": "N1", "type": "문법",
+      "question": "自分を信じること（　　）、成功はあり得ない。",
+      "options": ["なしに", "なくて", "ないで", "なければ"],
+      "answer": 0,
+      "explanation": "「ことなしに」는 '~하지 않고서는'의 의미로, N1 수준의 표현입니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "彼女の話を聞くに（　　）、尊敬の気持ちが深まった。",
+      "options": ["つれて", "ついて", "おいて", "あたって"],
+      "answer": 0,
+      "explanation": "「につれて」는 '~함에 따라'의 의미로, 한쪽이 변화함에 따라 다른 쪽도 변화할 때 씁니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "どんなに疲れて（　　）、笑顔を忘れないようにしている。",
+      "options": ["いても", "いれば", "いるのに", "いるから"],
+      "answer": 0,
+      "explanation": "「どんなに～ても」는 '아무리 ~해도'의 의미로, 어떤 상황에서도 변하지 않음을 강조합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "環境が変わると、人間も自然と変わって（　　）。",
+      "options": ["いくものだ", "くるものだ", "しまうものだ", "おくものだ"],
+      "answer": 0,
+      "explanation": "「ていくものだ」는 시간의 흐름에 따라 변화해 나가는 것이 당연하다는 뉘앙스를 담고 있습니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "この仕事は（　　）が必要で、一人ではできない。",
+      "options": ["協力", "競争", "独立", "拒否"],
+      "answer": 0,
+      "explanation": "「協力」(협력)이 '혼자서는 할 수 없다'는 문맥에 적합합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "彼は約束を守る（　　）か、連絡すらしてこなかった。",
+      "options": ["どころ", "ところ", "ほど", "くらい"],
+      "answer": 0,
+      "explanation": "「どころか」는 '~은커녕'의 의미로, 기대한 것조차 하지 않았음을 강조할 때 씁니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "目標を持つ（　　）、毎日が充実する。",
+      "options": ["ことで", "ことに", "ことが", "ことも"],
+      "answer": 0,
+      "explanation": "「ことで」는 '~함으로써'의 의미로, 어떤 행동이 결과의 원인이 됨을 나타냅니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "彼は（　　）な態度で交渉に臨んだ。",
+      "options": ["積極的", "消極的", "感情的", "衝動的"],
+      "answer": 0,
+      "explanation": "「積極的」(적극적)이 교섭에 임하는 긍정적인 태도로 가장 적합합니다."
+    },
+    {
+      "level": "N1", "type": "독해",
+      "question": "「七転び八起き」の意味として最も適切なものはどれですか。",
+      "options": ["何度失敗しても諦めずに立ち上がる", "成功するまで慎重に行動する", "一度の失敗で全てを諦める", "運に任せて行動する"],
+      "answer": 0,
+      "explanation": "「七転び八起き」는 '칠전팔기'로, 몇 번을 넘어져도 포기하지 않고 일어선다는 의미의 속담입니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "読書をする習慣をつける（　　）、語彙力が自然と身につく。",
+      "options": ["ことで", "ことに", "ことか", "ことも"],
+      "answer": 0,
+      "explanation": "「ことで」는 '~함으로써'의 의미입니다. 습관을 들이는 행동이 어휘력 향상의 원인이 됩니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "この問題は（　　）に考える必要がある。",
+      "options": ["慎重", "軽率", "衝動", "無計画"],
+      "answer": 0,
+      "explanation": "「慎重」(신중)이 문제를 다루는 적절한 태도로 문맥에 맞습니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "夢を実現する（　　）は、今この瞬間を大切にしなければならない。",
+      "options": ["ためには", "ことには", "わけには", "はずには"],
+      "answer": 0,
+      "explanation": "「ためには」는 '~을 위해서는'의 의미로, 목적 달성을 위한 조건을 나타냅니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "毎朝早起きする（　　）で、一日の質が大きく変わる。",
+      "options": ["だけ", "こそ", "ほど", "さえ"],
+      "answer": 0,
+      "explanation": "「だけで」는 '~하는 것만으로'의 의미로, 간단한 행동이 큰 변화를 가져옴을 강조합니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "小さな親切が、世界を変えるきっかけに（　　）こともある。",
+      "options": ["なる", "する", "くる", "いく"],
+      "answer": 0,
+      "explanation": "「になることもある」는 '~이 될 수도 있다'는 가능성을 나타냅니다."
+    },
+    {
+      "level": "N2", "type": "어휘",
+      "question": "その映画は見る（　　）深い意味が分かってくる。",
+      "options": ["ほど", "だけ", "こそ", "さえ"],
+      "answer": 0,
+      "explanation": "「ほど」는 「見れば見るほど」처럼 정도의 비례를 나타냅니다. '볼수록'이라는 의미입니다."
+    },
+    {
+      "level": "N2", "type": "문법",
+      "question": "過去は変えられないが、未来は自分の行動（　　）でいくらでも変えられる。",
+      "options": ["次第", "だけ", "ほど", "まで"],
+      "answer": 0,
+      "explanation": "「次第で」는 '~에 따라'로, 무언가에 의해 결과가 결정됨을 나타내는 표현입니다."
+    },
+    {
+      "level": "N1", "type": "독해",
+      "question": "「棚からぼたもち」の意味として最も適切なものはどれですか。",
+      "options": ["努力せずに思わぬ幸運が得られること", "努力すれば必ず報われること", "準備を怠ると失敗すること", "運を信じて行動すること"],
+      "answer": 0,
+      "explanation": "「棚からぼたもち」는 '뜻하지 않게 행운이 굴러들어 온다'는 뜻의 속담입니다. 한국어의 '하늘에서 떡이 떨어지다'와 유사합니다."
+    }
+  ]
+}
