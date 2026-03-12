@@ -600,60 +600,20 @@
   <div class="section-label">오늘의 학습 / 今日の勉強</div>
   <h2 class="section-title">하루 한 줄</h2>
 
-  <div class="sentence-card">
-    <div class="sentence-jp">
-      <ruby>努力<rt>どりょく</rt></ruby>した<ruby>分<rt>ぶん</rt></ruby>だけ、<ruby>必<rt>かなら</rt></ruby>ず<ruby>結果<rt>けっか</rt></ruby>に<ruby>現<rt>あらわ</rt></ruby>れる。
-    </div>
-    <div class="sentence-kr">노력한 만큼, 반드시 결과에 나타난다.</div>
-    <div class="sentence-meta">
-      <span class="meta-tag highlight">～だけ</span>
-      <span class="meta-tag">N2 문법</span>
-      <span class="meta-tag">명언</span>
-    </div>
+  <div class="sentence-card" id="sentence-card">
+    <div class="sentence-jp" id="sentence-jp">로딩 중...</div>
+    <div class="sentence-kr" id="sentence-kr"></div>
+    <div class="sentence-meta" id="sentence-meta"></div>
   </div>
 
   <div class="daily-grid">
-    <!-- WORDS -->
     <div class="daily-card fade-in">
       <div class="daily-card-title">오늘의 단어</div>
-
-      <div class="word-item">
-        <span class="word-kanji">努力</span>
-        <span class="word-furi">どりょく</span>
-        <span class="word-meaning">노력</span>
-      </div>
-      <div class="word-item">
-        <span class="word-kanji">結果</span>
-        <span class="word-furi">けっか</span>
-        <span class="word-meaning">결과</span>
-      </div>
-      <div class="word-item">
-        <span class="word-kanji">現れる</span>
-        <span class="word-furi">あらわれる</span>
-        <span class="word-meaning">나타나다</span>
-      </div>
-      <div class="word-item">
-        <span class="word-kanji">必ず</span>
-        <span class="word-furi">かならず</span>
-        <span class="word-meaning">반드시</span>
-      </div>
+      <div id="daily-words"></div>
     </div>
-
-    <!-- GRAMMAR -->
     <div class="daily-card fade-in">
       <div class="daily-card-title">오늘의 문법</div>
-
-      <div class="grammar-item">
-        <div class="grammar-pattern">～だけ</div>
-        <div class="grammar-desc">~한 만큼, ~한 정도. 수량·정도의 한계나 비례 관계를 나타낸다.</div>
-        <div class="grammar-example">できるだけ早く来てください。<br><span style="font-size:11px;color:var(--text-muted)">가능한 한 빨리 와 주세요.</span></div>
-      </div>
-
-      <div class="grammar-item">
-        <div class="grammar-pattern">～に現れる</div>
-        <div class="grammar-desc">어떤 상태나 결과가 겉으로 드러날 때 사용. 「に」로 출현 장소를 표시.</div>
-        <div class="grammar-example">性格は行動に現れる。<br><span style="font-size:11px;color:var(--text-muted)">성격은 행동에 나타난다.</span></div>
-      </div>
+      <div id="daily-grammar"></div>
     </div>
   </div>
 </section>
@@ -732,6 +692,60 @@ const d = new Date();
 document.getElementById('today-date').textContent =
   d.toLocaleDateString('ko-KR', { year:'numeric', month:'long', day:'numeric', weekday:'short' });
 
+// ─── DATA.JSON 로드 (날짜 기반 콘텐츠) ───
+async function loadDailyContent() {
+  try {
+    const res = await fetch('data.json?t=' + new Date().toDateString());
+    const data = await res.json();
+
+    // 날짜를 시드로 오늘의 인덱스 결정
+    const dayOfYear = Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
+
+    // ── 하루 한 줄 ──
+    const sentence = data.sentences[dayOfYear % data.sentences.length];
+    document.getElementById('sentence-jp').innerHTML = sentence.jp;
+    document.getElementById('sentence-kr').textContent = sentence.kr;
+    document.getElementById('sentence-meta').innerHTML = `
+      <span class="meta-tag highlight">${sentence.grammar}</span>
+      <span class="meta-tag">${sentence.level} 문법</span>
+    `;
+
+    // 오늘의 단어
+    const wordsEl = document.getElementById('daily-words');
+    wordsEl.innerHTML = sentence.words.map(w => `
+      <div class="word-item">
+        <span class="word-kanji">${w.kanji}</span>
+        <span class="word-furi">${w.furi}</span>
+        <span class="word-meaning">${w.meaning}</span>
+      </div>
+    `).join('');
+
+    // 오늘의 문법 (문장에서 사용된 문법 설명)
+    document.getElementById('daily-grammar').innerHTML = `
+      <div class="grammar-item">
+        <div class="grammar-pattern">${sentence.grammar}</div>
+        <div class="grammar-desc">오늘의 문장에서 사용된 핵심 문법 패턴입니다.</div>
+        <div class="grammar-example">${sentence.jp}<br>
+          <span style="font-size:11px;color:var(--text-muted)">${sentence.kr}</span>
+        </div>
+      </div>
+    `;
+
+    // ── JLPT 문제 5개 (오늘 날짜 기반으로 순환) ──
+    const quizData = [];
+    for (let i = 0; i < 5; i++) {
+      quizData.push(data.quiz[(dayOfYear * 5 + i) % data.quiz.length]);
+    }
+    window._quizData = quizData;
+    renderQuiz();
+
+  } catch (e) {
+    console.error('data.json 로드 실패:', e);
+    renderQuiz(); // 기존 quizData로 폴백
+  }
+}
+loadDailyContent();
+
 // ─── SCROLL TO + NAV ACTIVE ───
 function navClick(el, id) {
   document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
@@ -770,57 +784,38 @@ const obs = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
 
-// ─── QUIZ DATA ───
+// ─── QUIZ DATA (폴백용) ───
 const quizData = [
   {
-    level: 'N2',
-    type: '문법',
+    level: 'N2', type: '문법',
     question: '彼女は毎日練習した（　　）、大会で優勝することができた。',
-    blank: true,
-    options: ['おかげで', 'せいで', 'くせに', 'ものの'],
-    answer: 0,
-    explanation: '「おかげで」는 좋은 결과의 원인·이유를 나타낼 때 사용합니다. 「せいで」는 나쁜 결과, 「くせに」는 불만·비난, 「ものの」는 역접 관계에서 사용합니다.'
+    options: ['おかげで', 'せいで', 'くせに', 'ものの'], answer: 0,
+    explanation: '「おかげで」는 좋은 결과의 원인을 나타냅니다.'
   },
   {
-    level: 'N2',
-    type: '문법',
+    level: 'N2', type: '문법',
     question: '父は厳しい（　　）、とても優しい人だ。',
-    blank: true,
-    options: ['ようで', 'ものの', 'ようでも', 'だからこそ'],
-    answer: 1,
-    explanation: '「ものの」는 「~이기는 하지만」이라는 의미의 역접 표현입니다. 앞의 내용을 인정하면서도 뒤에서 예상과 다른 결과가 이어질 때 사용합니다.'
+    options: ['ようで', 'ものの', 'ようでも', 'だからこそ'], answer: 1,
+    explanation: '「ものの」는 역접 표현입니다.'
   },
   {
-    level: 'N2',
-    type: '어휘',
+    level: 'N2', type: '어휘',
     question: '彼は問題を（　　）的に解決しようとした。',
-    blank: true,
-    options: ['論理', '感情', '積極', '消極'],
-    answer: 0,
-    explanation: '「論理的」(논리적)이 문맥상 가장 자연스럽습니다. 문제를 논리적으로 해결하려 했다는 의미입니다. 「積極的」(적극적)도 가능해 보이지만, 뒤의 「解決しようとした」와 더 어울리는 것은 「論理的」입니다.'
+    options: ['論理', '感情', '積極', '消極'], answer: 0,
+    explanation: '「論理的」이 문맥상 가장 자연스럽습니다.'
   },
   {
-    level: 'N1',
-    type: '독해',
-    question: '「石橋を叩いて渡る」という表現の意味として、最も適切なものはどれですか。',
-    blank: false,
-    options: [
-      '慎重に確認してから行動する',
-      '勇気を持って困難に立ち向かう',
-      '急いで物事を進める',
-      '他人を信用しない'
-    ],
+    level: 'N1', type: '독해',
+    question: '「石橋を叩いて渡る」の意味として最も適切なものはどれですか。',
+    options: ['慎重に確認してから行動する', '勇気を持って困難に立ち向かう', '急いで物事を進める', '他人を信用しない'],
     answer: 0,
-    explanation: '「石橋を叩いて渡る」는 돌다리도 두드려보고 건넌다는 뜻으로, 안전을 충분히 확인한 후 행동하는 신중한 태도를 의미하는 속담입니다.'
+    explanation: '돌다리도 두드려보고 건넌다는 뜻입니다.'
   },
   {
-    level: 'N2',
-    type: '문법',
+    level: 'N2', type: '문법',
     question: '時間が（　　）、もっと勉強したいのに。',
-    blank: true,
-    options: ['あれば', 'あると', 'あって', 'あるなら'],
-    answer: 0,
-    explanation: '「〜ば」는 반사실적 조건(현재 그렇지 않지만 만약 그렇다면)을 나타낼 때 사용합니다. 「時間があれば」는 「시간이 있다면」이라는 아쉬움을 나타내는 표현입니다.'
+    options: ['あれば', 'あると', 'あって', 'あるなら'], answer: 0,
+    explanation: '「～ば」는 반사실적 조건을 나타냅니다.'
   }
 ];
 
@@ -828,11 +823,13 @@ let currentQ = 0;
 let answered = false;
 
 function renderQuiz() {
-  const q = quizData[currentQ];
+  const data = window._quizData || quizData;
+  const q = data[currentQ];
+  if (!q) return;
   const el = document.getElementById('quiz-container');
   el.innerHTML = `
     <div class="quiz-card">
-      <div class="quiz-number">문제 ${currentQ+1} / ${quizData.length}</div>
+      <div class="quiz-number">문제 ${currentQ+1} / ${data.length}</div>
       <span class="quiz-level">${q.level} · ${q.type}</span>
       <div class="quiz-question">${q.question.replace('（　　）', '<span class="blank">（　　）</span>')}</div>
       <div class="quiz-options">
@@ -847,8 +844,8 @@ function renderQuiz() {
     </div>
     <div class="quiz-nav">
       <button class="btn" onclick="prevQ()" ${currentQ===0?'disabled style="opacity:0.3"':''}>← 이전</button>
-      <button class="btn primary" onclick="nextQ()" ${currentQ===quizData.length-1?'disabled style="opacity:0.3"':''}>다음 →</button>
-      <span class="quiz-progress">${currentQ+1} / ${quizData.length}</span>
+      <button class="btn primary" onclick="nextQ()" ${currentQ===data.length-1?'disabled style="opacity:0.3"':''}>다음 →</button>
+      <span class="quiz-progress">${currentQ+1} / ${data.length}</span>
     </div>
   `;
   answered = false;
@@ -857,7 +854,8 @@ function renderQuiz() {
 function checkAnswer(idx) {
   if (answered) return;
   answered = true;
-  const q = quizData[currentQ];
+  const data = window._quizData || quizData;
+  const q = data[currentQ];
   document.querySelectorAll('.quiz-option').forEach((btn, i) => {
     btn.classList.add('disabled');
     if (i === q.answer) btn.classList.add('correct');
@@ -867,14 +865,13 @@ function checkAnswer(idx) {
 }
 
 function nextQ() {
-  if (currentQ < quizData.length - 1) { currentQ++; renderQuiz(); }
+  const data = window._quizData || quizData;
+  if (currentQ < data.length - 1) { currentQ++; renderQuiz(); }
 }
 
 function prevQ() {
   if (currentQ > 0) { currentQ--; renderQuiz(); }
 }
-
-renderQuiz();
 
 // ─── GAME ───
 // 기본 단어 (words.json 로드 실패 시 fallback)
