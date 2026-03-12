@@ -31,8 +31,19 @@ jobs:
           with open("raw_response.json", "r") as f:
               data = json.load(f)
 
+          results = data.get("results", [])
+          print(f"📦 총 {len(results)}개 페이지 받음")
+
+          # 첫 번째 항목의 properties 키 이름 출력 (디버그)
+          if results:
+              first = results[0]
+              props = first.get("properties", {})
+              print(f"🔑 컬럼 이름들: {list(props.keys())}")
+              for k, v in props.items():
+                  print(f"  - {k}: type={v.get('type')}")
+
           words = []
-          for page in data.get("results", []):
+          for page in results:
               props = page.get("properties", {})
 
               def get_text(prop):
@@ -47,16 +58,28 @@ jobs:
                       return ""
                   return "".join(p.get("plain_text", "") for p in parts).strip()
 
-              kanji   = get_text(props.get("한자"))
-              furi    = get_text(props.get("후리가나"))
-              meaning = get_text(props.get("의미"))
+              kanji = ""
+              furi = ""
+              meaning = ""
+
+              for key, val in props.items():
+                  if val.get("type") == "title":
+                      kanji = get_text(val)
+                  elif key == "후리가나":
+                      furi = get_text(val)
+                  elif key == "의미":
+                      meaning = get_text(val)
+
+              # 의미가 여러 줄이면 첫 번째 줄만 사용
+              if meaning and "\n" in meaning:
+                  meaning = meaning.split("\n")[0].strip()
+              if meaning and meaning[:2] in ["1.", "1 "]:
+                  meaning = meaning[2:].strip()
 
               if kanji and furi and meaning:
-                  words.append({
-                      "kanji": kanji,
-                      "furi": furi,
-                      "meaning": meaning
-                  })
+                  words.append({"kanji": kanji, "furi": furi, "meaning": meaning})
+              else:
+                  print(f"  ⚠️ 스킵: kanji={repr(kanji)}, furi={repr(furi)}, meaning={repr(meaning)}")
 
           with open("words.json", "w", encoding="utf-8") as f:
               json.dump(words, f, ensure_ascii=False, indent=2)
