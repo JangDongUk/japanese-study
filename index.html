@@ -896,16 +896,19 @@ let wordsLoaded = false;
 async function loadWords() {
   const statusEl = document.getElementById('word-count');
   try {
-    const res = await fetch('words.json');
+    const res = await fetch('words.json?t=' + Date.now()); // 캐시 방지
     if (!res.ok) throw new Error('words.json 없음');
     const data = await res.json();
     if (Array.isArray(data) && data.length > 0) {
       WORDS = data;
       wordsLoaded = true;
-      if (statusEl) statusEl.textContent = `노션 단어 ${data.length}개 로드됨`;
+      if (statusEl) statusEl.textContent = `노션 단어 ${data.length}개 로드됨 ✓`;
+    } else {
+      throw new Error('단어 없음');
     }
   } catch (e) {
-    if (statusEl) statusEl.textContent = `기본 단어 ${FALLBACK_WORDS.length}개 사용 중 (노션 미연동)`;
+    WORDS = [...FALLBACK_WORDS];
+    if (statusEl) statusEl.textContent = `기본 단어 ${FALLBACK_WORDS.length}개 사용 중`;
   }
 }
 loadWords();
