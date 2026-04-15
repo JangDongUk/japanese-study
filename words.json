@@ -1,403 +1,48 @@
 [
   {
-    "kanji": "習慣",
-    "furi": "しゅうかん",
-    "meaning": "습관"
+    "kanji": "長野県",
+    "furi": "ながのけん",
+    "meaning": "나가노현"
   },
   {
-    "kanji": "匂い",
-    "furi": "におい",
-    "meaning": "냄새, 향내, 향기"
+    "kanji": "距離",
+    "furi": "きょり",
+    "meaning": "거리"
   },
   {
-    "kanji": "高知県",
-    "furi": "こうちけん",
-    "meaning": "고치 현"
+    "kanji": "宝石",
+    "furi": "ほうせき",
+    "meaning": "보석"
   },
   {
-    "kanji": "北斗市",
-    "furi": "ほくとし",
-    "meaning": "호쿠토 시"
+    "kanji": "被害",
+    "furi": "ひがい",
+    "meaning": "피해"
   },
   {
-    "kanji": "列車",
-    "furi": "れっしゃ",
-    "meaning": "열차"
+    "kanji": "襲う",
+    "furi": "おそう",
+    "meaning": "습격하다"
   },
   {
-    "kanji": "壊れる",
-    "furi": "こわれる",
-    "meaning": "깨지다"
+    "kanji": "兆",
+    "furi": "ちょう",
+    "meaning": "조 (숫자의 단위)"
   },
   {
-    "kanji": "橋",
-    "furi": "はし",
-    "meaning": "다리"
+    "kanji": "日本政府観光局",
+    "furi": "にほんせいふかんこうきょく",
+    "meaning": "일본정부관광국"
   },
   {
-    "kanji": "気象庁",
-    "furi": "きしょうちょう",
-    "meaning": "기상청"
+    "kanji": "攻撃",
+    "furi": "こうげき",
+    "meaning": "공격"
   },
   {
-    "kanji": "影響",
-    "furi": "えいきょう",
-    "meaning": "영향"
-  },
-  {
-    "kanji": "避難",
-    "furi": "ひなん",
-    "meaning": "피난"
-  },
-  {
-    "kanji": "震度",
-    "furi": "しんど",
-    "meaning": "진도 (지진의 강도)"
-  },
-  {
-    "kanji": "八戸市",
-    "furi": "はちのへし",
-    "meaning": "하치노에 시"
-  },
-  {
-    "kanji": "品物",
-    "furi": "しなもの",
-    "meaning": "물건, 물품, 상품"
-  },
-  {
-    "kanji": "底",
-    "furi": "そこ",
-    "meaning": "바닥"
-  },
-  {
-    "kanji": "干す",
-    "furi": "ほす",
-    "meaning": "말리다"
-  },
-  {
-    "kanji": "尾鷲市",
-    "furi": "おわせし",
-    "meaning": "오와세시"
-  },
-  {
-    "kanji": "屋上",
-    "furi": "おくじょう",
-    "meaning": "옥상"
-  },
-  {
-    "kanji": "卵巣",
-    "furi": "らんそう",
-    "meaning": "난소"
-  },
-  {
-    "kanji": "監督",
-    "furi": "かんとく",
-    "meaning": "감독"
-  },
-  {
-    "kanji": "取り替える",
-    "furi": "とりかえる",
-    "meaning": "바꾸다"
-  },
-  {
-    "kanji": "割合",
-    "furi": "わりあい",
-    "meaning": "비율"
-  },
-  {
-    "kanji": "行う",
-    "furi": "おこなう",
-    "meaning": "(일을) 하다, 시행하다"
-  },
-  {
-    "kanji": "激しい",
-    "furi": "はげしい",
-    "meaning": "기세가 강하다, 정도가 심하다"
-  },
-  {
-    "kanji": "前立腺",
-    "furi": "ぜんりつせん",
-    "meaning": "전립선"
-  },
-  {
-    "kanji": "甲状腺",
-    "furi": "こうじょうせん",
-    "meaning": "갑상선"
-  },
-  {
-    "kanji": "皮膚",
-    "furi": "ひふ",
-    "meaning": "피부"
-  },
-  {
-    "kanji": "乳がん",
-    "furi": "にゅうがん",
-    "meaning": "유방암"
-  },
-  {
-    "kanji": "喉頭",
-    "furi": "こうとう",
-    "meaning": "후두"
-  },
-  {
-    "kanji": "肝臓",
-    "furi": "かんぞう",
-    "meaning": "간"
-  },
-  {
-    "kanji": "大腸",
-    "furi": "だいちょう",
-    "meaning": "대장"
-  },
-  {
-    "kanji": "すい臓",
-    "furi": "すいぞう",
-    "meaning": "췌장"
-  },
-  {
-    "kanji": "外れる",
-    "furi": "はずれる",
-    "meaning": "벗어나다"
-  },
-  {
-    "kanji": "新潟",
-    "furi": "にいがた",
-    "meaning": "니가타"
-  },
-  {
-    "kanji": "杉",
-    "furi": "すぎ",
-    "meaning": "삼나무"
-  },
-  {
-    "kanji": "花粉",
-    "furi": "かふん",
-    "meaning": "꽃가루"
-  },
-  {
-    "kanji": "雄",
-    "furi": "おす",
-    "meaning": "수컷"
-  },
-  {
-    "kanji": "箏",
-    "furi": "こと",
-    "meaning": "고토 (일본 전통 현악기)"
-  },
-  {
-    "kanji": "爪",
-    "furi": "つめ",
-    "meaning": "손톱"
-  },
-  {
-    "kanji": "弦",
-    "furi": "げん",
-    "meaning": "줄, 현"
-  },
-  {
-    "kanji": "指",
-    "furi": "ゆび",
-    "meaning": "손가락"
-  },
-  {
-    "kanji": "里芋",
-    "furi": "さといも",
-    "meaning": "토란"
-  },
-  {
-    "kanji": "緊急避妊薬",
-    "furi": "きんきゅうひにんやく",
-    "meaning": "긴급피임약"
-  },
-  {
-    "kanji": "妊娠",
-    "furi": "にんしん",
-    "meaning": "임신"
-  },
-  {
-    "kanji": "性交",
-    "furi": "せいこう",
-    "meaning": "성관계"
-  },
-  {
-    "kanji": "処方箋",
-    "furi": "しょほうせん",
-    "meaning": "처방전"
-  },
-  {
-    "kanji": "薬剤師",
-    "furi": "やくざいし",
-    "meaning": "약사"
-  },
-  {
-    "kanji": "祈る",
-    "furi": "いのる",
-    "meaning": "기원하다"
-  },
-  {
-    "kanji": "冬至",
-    "furi": "とうじ",
-    "meaning": "동지"
-  },
-  {
-    "kanji": "潜る",
-    "furi": "もぐる",
-    "meaning": "잠수하다"
-  },
-  {
-    "kanji": "鈴",
-    "furi": "すず",
-    "meaning": "방울"
-  },
-  {
-    "kanji": "深さ",
-    "furi": "ふかさ",
-    "meaning": "깊이"
-  },
-  {
-    "kanji": "飾る",
-    "furi": "かざる",
-    "meaning": "장식하다"
-  },
-  {
-    "kanji": "売り上げ",
-    "furi": "うりあげ",
-    "meaning": "매출"
-  },
-  {
-    "kanji": "香港",
-    "furi": "ホンコン",
-    "meaning": "홍콩"
-  },
-  {
-    "kanji": "台湾",
-    "furi": "たいわん",
-    "meaning": "대만"
-  },
-  {
-    "kanji": "総理大臣",
-    "furi": "そうりだいじん",
-    "meaning": "총리대신"
-  },
-  {
-    "kanji": "浅草",
-    "furi": "あさくさ",
-    "meaning": "아사쿠사"
-  },
-  {
-    "kanji": "濃い",
-    "furi": "こい",
-    "meaning": "짙다, 진하다."
-  },
-  {
-    "kanji": "屋根",
-    "furi": "やね",
-    "meaning": "지붕"
-  },
-  {
-    "kanji": "積もる",
-    "furi": "つもる",
-    "meaning": "(내려) 쌓이다, 많이 모이다."
-  },
-  {
-    "kanji": "夕張市",
-    "furi": "ゆうばりし",
-    "meaning": "유바리 시"
-  },
-  {
-    "kanji": "北陸",
-    "furi": "ほくりく",
-    "meaning": "호쿠리쿠"
-  },
-  {
-    "kanji": "東北地方",
-    "furi": "とうほくちほう",
-    "meaning": "도호쿠 지방"
-  },
-  {
-    "kanji": "下がる",
-    "furi": "さがる",
-    "meaning": "내리다"
-  },
-  {
-    "kanji": "札幌市",
-    "furi": "さっぽろし",
-    "meaning": "삿포로시"
-  },
-  {
-    "kanji": "目標",
-    "furi": "もくひょう",
-    "meaning": "목표"
-  },
-  {
-    "kanji": "産業革命",
-    "furi": "さんぎょうかくめい",
-    "meaning": "산업혁명"
-  },
-  {
-    "kanji": "気候",
-    "furi": "きこう",
-    "meaning": "기후"
-  },
-  {
-    "kanji": "国連",
-    "furi": "こくれん",
-    "meaning": "국련(국제연합의 준말)"
-  },
-  {
-    "kanji": "臭い",
-    "furi": "くさい",
-    "meaning": "고약한 냄새가 나다"
-  },
-  {
-    "kanji": "漬ける",
-    "furi": "つける",
-    "meaning": "절이다"
-  },
-  {
-    "kanji": "三重県",
-    "furi": "みえけん",
-    "meaning": "미에현"
-  },
-  {
-    "kanji": "滑る",
-    "furi": "すべる",
-    "meaning": "미끄러지다"
-  },
-  {
-    "kanji": "埼玉県",
-    "furi": "さいたまけん",
-    "meaning": "사이타마현"
-  },
-  {
-    "kanji": "柿",
-    "furi": "かき",
-    "meaning": "감"
-  },
-  {
-    "kanji": "市場",
-    "furi": "いちば",
-    "meaning": "시장 (물건을 파는 곳)"
-  },
-  {
-    "kanji": "写る",
-    "furi": "うつる",
-    "meaning": "사진에 찍히다, 사진을 찍을 수 있다"
-  },
-  {
-    "kanji": "人工衛星",
-    "furi": "じんこうえいせい",
-    "meaning": "인공위성"
-  },
-  {
-    "kanji": "尾",
-    "furi": "お",
-    "meaning": "(동물의) 꼬리"
-  },
-  {
-    "kanji": "旭川市",
-    "furi": "あさひかわし",
-    "meaning": "아사히카와 시(홋카이도)"
+    "kanji": "大統領",
+    "furi": "だいとうりょう",
+    "meaning": "대통령"
   },
   {
     "kanji": "危ない",
@@ -415,44 +60,9 @@
     "meaning": "도둑맞다"
   },
   {
-    "kanji": "宝石",
-    "furi": "ほうせき",
-    "meaning": "보석"
-  },
-  {
-    "kanji": "距離",
-    "furi": "きょり",
-    "meaning": "거리"
-  },
-  {
-    "kanji": "攻撃",
-    "furi": "こうげき",
-    "meaning": "공격"
-  },
-  {
-    "kanji": "大統領",
-    "furi": "だいとうりょう",
-    "meaning": "대통령"
-  },
-  {
-    "kanji": "兆",
-    "furi": "ちょう",
-    "meaning": "조 (숫자의 단위)"
-  },
-  {
-    "kanji": "日本政府観光局",
-    "furi": "にほんせいふかんこうきょく",
-    "meaning": "일본정부관광국"
-  },
-  {
-    "kanji": "長野県",
-    "furi": "ながのけん",
-    "meaning": "나가노현"
-  },
-  {
-    "kanji": "秋田県",
-    "furi": "あきたけん",
-    "meaning": "아키타현"
+    "kanji": "取り替える",
+    "furi": "とりかえる",
+    "meaning": "바꾸다"
   },
   {
     "kanji": "岩手県",
@@ -460,13 +70,403 @@
     "meaning": "이와테현"
   },
   {
-    "kanji": "被害",
-    "furi": "ひがい",
-    "meaning": "피해"
+    "kanji": "秋田県",
+    "furi": "あきたけん",
+    "meaning": "아키타현"
   },
   {
-    "kanji": "襲う",
-    "furi": "おそう",
-    "meaning": "습격하다"
+    "kanji": "旭川市",
+    "furi": "あさひかわし",
+    "meaning": "아사히카와 시(홋카이도)"
+  },
+  {
+    "kanji": "尾",
+    "furi": "お",
+    "meaning": "(동물의) 꼬리"
+  },
+  {
+    "kanji": "人工衛星",
+    "furi": "じんこうえいせい",
+    "meaning": "인공위성"
+  },
+  {
+    "kanji": "写る",
+    "furi": "うつる",
+    "meaning": "사진에 찍히다, 사진을 찍을 수 있다"
+  },
+  {
+    "kanji": "埼玉県",
+    "furi": "さいたまけん",
+    "meaning": "사이타마현"
+  },
+  {
+    "kanji": "市場",
+    "furi": "いちば",
+    "meaning": "시장 (물건을 파는 곳)"
+  },
+  {
+    "kanji": "滑る",
+    "furi": "すべる",
+    "meaning": "미끄러지다"
+  },
+  {
+    "kanji": "柿",
+    "furi": "かき",
+    "meaning": "감"
+  },
+  {
+    "kanji": "監督",
+    "furi": "かんとく",
+    "meaning": "감독"
+  },
+  {
+    "kanji": "尾鷲市",
+    "furi": "おわせし",
+    "meaning": "오와세시"
+  },
+  {
+    "kanji": "三重県",
+    "furi": "みえけん",
+    "meaning": "미에현"
+  },
+  {
+    "kanji": "漬ける",
+    "furi": "つける",
+    "meaning": "절이다"
+  },
+  {
+    "kanji": "干す",
+    "furi": "ほす",
+    "meaning": "말리다"
+  },
+  {
+    "kanji": "屋上",
+    "furi": "おくじょう",
+    "meaning": "옥상"
+  },
+  {
+    "kanji": "卵巣",
+    "furi": "らんそう",
+    "meaning": "난소"
+  },
+  {
+    "kanji": "臭い",
+    "furi": "くさい",
+    "meaning": "고약한 냄새가 나다"
+  },
+  {
+    "kanji": "国連",
+    "furi": "こくれん",
+    "meaning": "국련(국제연합의 준말)"
+  },
+  {
+    "kanji": "気候",
+    "furi": "きこう",
+    "meaning": "기후"
+  },
+  {
+    "kanji": "産業革命",
+    "furi": "さんぎょうかくめい",
+    "meaning": "산업혁명"
+  },
+  {
+    "kanji": "目標",
+    "furi": "もくひょう",
+    "meaning": "목표"
+  },
+  {
+    "kanji": "下がる",
+    "furi": "さがる",
+    "meaning": "내리다"
+  },
+  {
+    "kanji": "札幌市",
+    "furi": "さっぽろし",
+    "meaning": "삿포로시"
+  },
+  {
+    "kanji": "北陸",
+    "furi": "ほくりく",
+    "meaning": "호쿠리쿠"
+  },
+  {
+    "kanji": "屋根",
+    "furi": "やね",
+    "meaning": "지붕"
+  },
+  {
+    "kanji": "新潟",
+    "furi": "にいがた",
+    "meaning": "니가타"
+  },
+  {
+    "kanji": "東北地方",
+    "furi": "とうほくちほう",
+    "meaning": "도호쿠 지방"
+  },
+  {
+    "kanji": "夕張市",
+    "furi": "ゆうばりし",
+    "meaning": "유바리 시"
+  },
+  {
+    "kanji": "積もる",
+    "furi": "つもる",
+    "meaning": "(내려) 쌓이다, 많이 모이다."
+  },
+  {
+    "kanji": "濃い",
+    "furi": "こい",
+    "meaning": "짙다, 진하다."
+  },
+  {
+    "kanji": "台湾",
+    "furi": "たいわん",
+    "meaning": "대만"
+  },
+  {
+    "kanji": "浅草",
+    "furi": "あさくさ",
+    "meaning": "아사쿠사"
+  },
+  {
+    "kanji": "売り上げ",
+    "furi": "うりあげ",
+    "meaning": "매출"
+  },
+  {
+    "kanji": "香港",
+    "furi": "ホンコン",
+    "meaning": "홍콩"
+  },
+  {
+    "kanji": "総理大臣",
+    "furi": "そうりだいじん",
+    "meaning": "총리대신"
+  },
+  {
+    "kanji": "鈴",
+    "furi": "すず",
+    "meaning": "방울"
+  },
+  {
+    "kanji": "底",
+    "furi": "そこ",
+    "meaning": "바닥"
+  },
+  {
+    "kanji": "深さ",
+    "furi": "ふかさ",
+    "meaning": "깊이"
+  },
+  {
+    "kanji": "品物",
+    "furi": "しなもの",
+    "meaning": "물건, 물품, 상품"
+  },
+  {
+    "kanji": "飾る",
+    "furi": "かざる",
+    "meaning": "장식하다"
+  },
+  {
+    "kanji": "潜る",
+    "furi": "もぐる",
+    "meaning": "잠수하다"
+  },
+  {
+    "kanji": "震度",
+    "furi": "しんど",
+    "meaning": "진도 (지진의 강도)"
+  },
+  {
+    "kanji": "壊れる",
+    "furi": "こわれる",
+    "meaning": "깨지다"
+  },
+  {
+    "kanji": "避難",
+    "furi": "ひなん",
+    "meaning": "피난"
+  },
+  {
+    "kanji": "橋",
+    "furi": "はし",
+    "meaning": "다리"
+  },
+  {
+    "kanji": "影響",
+    "furi": "えいきょう",
+    "meaning": "영향"
+  },
+  {
+    "kanji": "気象庁",
+    "furi": "きしょうちょう",
+    "meaning": "기상청"
+  },
+  {
+    "kanji": "八戸市",
+    "furi": "はちのへし",
+    "meaning": "하치노에 시"
+  },
+  {
+    "kanji": "列車",
+    "furi": "れっしゃ",
+    "meaning": "열차"
+  },
+  {
+    "kanji": "習慣",
+    "furi": "しゅうかん",
+    "meaning": "습관"
+  },
+  {
+    "kanji": "匂い",
+    "furi": "におい",
+    "meaning": "냄새, 향내, 향기"
+  },
+  {
+    "kanji": "冬至",
+    "furi": "とうじ",
+    "meaning": "동지"
+  },
+  {
+    "kanji": "北斗市",
+    "furi": "ほくとし",
+    "meaning": "호쿠토 시"
+  },
+  {
+    "kanji": "高知県",
+    "furi": "こうちけん",
+    "meaning": "고치 현"
+  },
+  {
+    "kanji": "行う",
+    "furi": "おこなう",
+    "meaning": "(일을) 하다, 시행하다"
+  },
+  {
+    "kanji": "激しい",
+    "furi": "はげしい",
+    "meaning": "기세가 강하다, 정도가 심하다"
+  },
+  {
+    "kanji": "甲状腺",
+    "furi": "こうじょうせん",
+    "meaning": "갑상선"
+  },
+  {
+    "kanji": "皮膚",
+    "furi": "ひふ",
+    "meaning": "피부"
+  },
+  {
+    "kanji": "喉頭",
+    "furi": "こうとう",
+    "meaning": "후두"
+  },
+  {
+    "kanji": "肝臓",
+    "furi": "かんぞう",
+    "meaning": "간"
+  },
+  {
+    "kanji": "すい臓",
+    "furi": "すいぞう",
+    "meaning": "췌장"
+  },
+  {
+    "kanji": "大腸",
+    "furi": "だいちょう",
+    "meaning": "대장"
+  },
+  {
+    "kanji": "前立腺",
+    "furi": "ぜんりつせん",
+    "meaning": "전립선"
+  },
+  {
+    "kanji": "割合",
+    "furi": "わりあい",
+    "meaning": "비율"
+  },
+  {
+    "kanji": "乳がん",
+    "furi": "にゅうがん",
+    "meaning": "유방암"
+  },
+  {
+    "kanji": "外れる",
+    "furi": "はずれる",
+    "meaning": "벗어나다"
+  },
+  {
+    "kanji": "雄",
+    "furi": "おす",
+    "meaning": "수컷"
+  },
+  {
+    "kanji": "杉",
+    "furi": "すぎ",
+    "meaning": "삼나무"
+  },
+  {
+    "kanji": "花粉",
+    "furi": "かふん",
+    "meaning": "꽃가루"
+  },
+  {
+    "kanji": "爪",
+    "furi": "つめ",
+    "meaning": "손톱"
+  },
+  {
+    "kanji": "弦",
+    "furi": "げん",
+    "meaning": "줄, 현"
+  },
+  {
+    "kanji": "箏",
+    "furi": "こと",
+    "meaning": "고토 (일본 전통 현악기)"
+  },
+  {
+    "kanji": "指",
+    "furi": "ゆび",
+    "meaning": "손가락"
+  },
+  {
+    "kanji": "里芋",
+    "furi": "さといも",
+    "meaning": "토란"
+  },
+  {
+    "kanji": "妊娠",
+    "furi": "にんしん",
+    "meaning": "임신"
+  },
+  {
+    "kanji": "処方箋",
+    "furi": "しょほうせん",
+    "meaning": "처방전"
+  },
+  {
+    "kanji": "緊急避妊薬",
+    "furi": "きんきゅうひにんやく",
+    "meaning": "긴급피임약"
+  },
+  {
+    "kanji": "薬剤師",
+    "furi": "やくざいし",
+    "meaning": "약사"
+  },
+  {
+    "kanji": "性交",
+    "furi": "せいこう",
+    "meaning": "성관계"
+  },
+  {
+    "kanji": "祈る",
+    "furi": "いのる",
+    "meaning": "기원하다"
   }
 ]
